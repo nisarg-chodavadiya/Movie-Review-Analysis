@@ -1,19 +1,22 @@
-# Movie-Review-Analysis
+# Movie Review Analysis
 1. This analysis is the answer to one question which is 
 "Which thing in movie people’s attention drawn most towards it in any movie?" as “More Insights on Reviews”.
 2. Easiest Model built with high accuracy for sentiment analysis for reviews by logistic regression.
 
+# Purpose of this analysis
+Demonsstraight how to get most out of minimum resource and minimal efforts, in this case, getting started datasets rather than just being expert in data skills by technical parts.
+
 # Dataset
 Stanford IMDB Dataset was used in this project which was originally published by researchers of Stanford University. 
 In this dataset there are thousands of movie reviews were collected as in 30 reviews per movie, 50-50% positive-negative to get insight.
-Link: http://ai.stanford.edu/~amaas/data/sentiment/
+Original Link: http://ai.stanford.edu/~amaas/data/sentiment/
 
 # Preprocessing
 ## Part 1: Kaggle dataset with rating and sentiment columns 
 It is a major part of which the whole dataset converted in CSV formate with columns Review, Rating, Sentiment by file handling and this preprocessed dataset I am putting on Kaggle and in this project I am using that dataset.
 Link:
 https://www.kaggle.com/nisargchodavadiya/imdb-movie-reviews-with-ratings-50k
-Which is looking like:
+Which is looking like this:
 ![Data Frame Snap Shot](https://user-images.githubusercontent.com/75474944/117930709-f45a9c80-b31b-11eb-8aa1-bafeb59a6d97.PNG)
 
 ## Part 2: Preprocess the text to analyze (Text Clean)
@@ -45,7 +48,12 @@ Negative Reviews Word Cloud:
 ![Negative reviews](https://user-images.githubusercontent.com/75474944/117929702-bc068e80-b31a-11eb-84df-42cb8c7782d7.png)
 
 # Conclusion
-Answer to Quesation:
+Answer to Question:
 1. People look at the character, story in the movie at first glance.
 2. Then they looked at the scene.
 3. Many times the story, scene makes the movie bad when the movie gets low ratings.
+Note: This dataset was published in 2011 so today’s reviews may make a difference in the answer to this question.
+
+# Acknowledgement
+Special thanks or Special acknowledgment goes to Questioner "[Mahesh Bhuva](https://github.com/mahesh1996)".
+Publishers (Authors) of  Original this Dataset.
