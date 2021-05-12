@@ -13,6 +13,18 @@ Link: http://ai.stanford.edu/~amaas/data/sentiment/
 It is a major part of which the whole dataset converted in CSV formate with columns Review, Rating, Sentiment by file handling and this preprocessed dataset I am putting on Kaggle and in this project I am using that dataset.
 Link:
 https://www.kaggle.com/nisargchodavadiya/imdb-movie-reviews-with-ratings-50k
+	Review	Rating	Sentiment
+0	Kurt Russell's chameleon-like performance, cou...	10	1
+1	It was extremely low budget(it some scenes it ...	8	1
+2	James Cagney is best known for his tough chara...	8	1
+3	Following the brilliant "Goyôkiba" (aka. "Hanz...	8	1
+4	One of the last classics of the French New Wav...	10	1
+...	...	...	...
+49995	(spoiler) it could be the one the worst movie ...	4	0
+49996	So, you've seen the Romero movies, yes? And yo...	1	0
+49997	Just listen to the Broadway cast album and to ...	3	0
+49998	I have been a fan of the Carpenters for a long...	3	0
+49999	Set in 1945, Skenbart follows a failed Swedish...	1	0
 ## Part 2: Preprocess the text to analyze (Text Clean)
 For sentiment analysis text in the whole dataset cleaned by removing punctuation and stop words.
 ## Part 3: Process text for algorithm for sentiment analysis
