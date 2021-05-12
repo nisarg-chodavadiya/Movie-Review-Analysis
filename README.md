@@ -13,18 +13,9 @@ Link: http://ai.stanford.edu/~amaas/data/sentiment/
 It is a major part of which the whole dataset converted in CSV formate with columns Review, Rating, Sentiment by file handling and this preprocessed dataset I am putting on Kaggle and in this project I am using that dataset.
 Link:
 https://www.kaggle.com/nisargchodavadiya/imdb-movie-reviews-with-ratings-50k
-	Review	Rating	Sentiment
-0	Kurt Russell's chameleon-like performance, cou...	10	1
-1	It was extremely low budget(it some scenes it ...	8	1
-2	James Cagney is best known for his tough chara...	8	1
-3	Following the brilliant "Goyôkiba" (aka. "Hanz...	8	1
-4	One of the last classics of the French New Wav...	10	1
-...	...	...	...
-49995	(spoiler) it could be the one the worst movie ...	4	0
-49996	So, you've seen the Romero movies, yes? And yo...	1	0
-49997	Just listen to the Broadway cast album and to ...	3	0
-49998	I have been a fan of the Carpenters for a long...	3	0
-49999	Set in 1945, Skenbart follows a failed Swedish...	1	0
+Which is looking like:
+![Data Frame Snap Shot](https://user-images.githubusercontent.com/75474944/117930709-f45a9c80-b31b-11eb-8aa1-bafeb59a6d97.PNG)
+
 ## Part 2: Preprocess the text to analyze (Text Clean)
 For sentiment analysis text in the whole dataset cleaned by removing punctuation and stop words.
 ## Part 3: Process text for algorithm for sentiment analysis
@@ -54,4 +45,7 @@ Negative Reviews Word Cloud:
 ![Negative reviews](https://user-images.githubusercontent.com/75474944/117929702-bc068e80-b31a-11eb-84df-42cb8c7782d7.png)
 
 # Conclusion
-For the answer and final words on world cloud please refer to the conclusion section of the notebook.
+Answer to Quesation:
+1. People look at the character, story in the movie at first glance.
+2. Then they looked at the scene.
+3. Many times the story, scene makes the movie bad when the movie gets low ratings.
