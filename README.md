@@ -51,7 +51,7 @@ Negative Reviews Word Cloud:
 Answer to Question:
 1. People look at the character, story in the movie at first glance.
 2. Then they looked at the scene.
-3. Many times the story, scene makes the movie bad when the movie gets low ratings.
+3. Many times the story, scene makes the movie bad when the movie gets low ratings.</br>
 Note: This dataset was published in 2011 so today’s reviews may make a difference in the answer to this question.
 
 # Acknowledgement
