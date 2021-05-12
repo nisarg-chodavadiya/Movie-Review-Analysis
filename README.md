@@ -3,7 +3,7 @@
 "Which thing in a movie gets people's attention drawn most towards it in any movie?" as “More Insights on Reviews”.
 2. Easiest Model built with high accuracy for sentiment analysis for reviews by logistic regression.
 
-# Purpose of this analysis
+## Purpose of this analysis
 Demonstrate how to get most out of minimum resource and minimal efforts, in this case, getting started datasets rather than just technically going hard.
 
 # Dataset
@@ -13,10 +13,9 @@ Original Link: http://ai.stanford.edu/~amaas/data/sentiment/
 
 # Preprocessing
 ## Part 1: Kaggle dataset with rating and sentiment columns 
-It is a major part of which the whole dataset is converted in CSV format with columns Review, Rating, Sentiment by file handling and this preprocessed dataset I am putting on Kaggle and in this project I am using that dataset.
-Link:
-https://www.kaggle.com/nisargchodavadiya/imdb-movie-reviews-with-ratings-50k
-Which is looking like this:
+It is a major part of which the whole dataset is converted in CSV format with columns Review, Rating, Sentiment by file handling and this preprocessed dataset I am putting on Kaggle and in this project I am using that dataset.</br>
+Link: https://www.kaggle.com/nisargchodavadiya/imdb-movie-reviews-with-ratings-50k </br>
+Which is looking like this:</br>
 ![Data Frame Snap Shot](https://user-images.githubusercontent.com/75474944/117930709-f45a9c80-b31b-11eb-8aa1-bafeb59a6d97.PNG)
 
 ## Part 2: Preprocess the text to analyze (Text Clean)
@@ -25,7 +24,7 @@ For sentiment analysis text in the whole dataset cleaned by removing punctuation
 Applied STEM on the cleaned text and then converted TF-IDF vectors.
 
 # Model
-A very simple Logistic Regression algorithm applied to get higher accuracy more than given in TensorFlow website with RNN with LSTM https://www.tensorflow.org/tutorials/text/text_classification_rnn#stack_two_or_more_lstm_layers
+A very simple Logistic Regression algorithm applied to get higher accuracy more than given in TensorFlow website with RNN, LSTM network https://www.tensorflow.org/tutorials/text/text_classification_rnn#stack_two_or_more_lstm_layers
 
 Accuracy of Logistic Regression model without tuning 88% on test data. 
 ![CM for IMDB Case Study](https://user-images.githubusercontent.com/75474944/117927560-fe7a9c00-b317-11eb-99bb-a8b0ece54aa7.png)
@@ -38,7 +37,7 @@ That is the most sensitive step which only can give superficial insight on this 
 Remove stopwords and punctuations, HTML tags, and combine all positive reviews. Then followed the same for negative reviews.
 Feed this to word cloud and the next preprocess to insight can only be done directly at word cloud.
  
-# Word Cloud
+## Word Cloud
 In this word cloud, notice the biggest word if it is a common word which is not leading to insight to question then add that word in stop words for word cloud and plot word cloud again up to when the first word which can derive insight from the word cloud.
 
 Positive Reviews Word Cloud:
@@ -55,5 +54,5 @@ Answer to Question:
 Note: This dataset was published in 2011 so today’s reviews may make a difference in the answer to this question.
 
 # Acknowledgement
-1. Special thanks or Special acknowledgment goes to Questioner "[Mahesh Bhuva](https://github.com/mahesh1996)".
-2. Publishers (Authors) of  Original this Dataset.
+1. Special thanks or special acknowledgment goes to questioner "[Mahesh Bhuva](https://github.com/mahesh1996)".
+2. Publishers (Authors) of  original this dataset.
