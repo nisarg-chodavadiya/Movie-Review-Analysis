@@ -1,7 +1,8 @@
 # Movie Review Analysis
 1. This analysis is the answer to one question which is 
-"Which thing in a movie gets people's attention drawn most towards it in any movie?" as “More Insights on Reviews”.
-2. Easiest Model built with high accuracy for sentiment analysis for reviews by logistic regression.
+**Which thing in a movie gets people's attention drawn most towards it in any movie?** as **More Insights on Reviews.**
+2. Publish a unique dataset on kaggle in CSV format with rating and sentiment both columns for each review.
+3. Easiest model build with high accuracy for sentiment analysis for reviews by logistic regression.
 
 ## Purpose of this analysis
 Demonstrate how to get most out of minimum resource and minimal efforts, in this case, getting started datasets rather than just technically going hard.
@@ -48,7 +49,7 @@ Negative Reviews Word Cloud:
 
 # Conclusion
 Answer to Question:
-1. People look at the character, story in the movie at first glance.
+1. People looks at the character, story in the movie at first glance.
 2. Then they looked at the scene.
 3. Many times the story, scene makes the movie bad when the movie gets low ratings.</br>
 Note: This dataset was published in 2011 so today’s reviews may make a difference in the answer to this question.
