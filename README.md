@@ -4,9 +4,6 @@
 2. Publish a unique dataset on kaggle in CSV format with rating and sentiment both columns for each review.
 3. Easiest model build with high accuracy for sentiment analysis for reviews by logistic regression.
 
-## Purpose of this analysis
-Demonstrate how to get most out of minimum resource and minimal efforts, in this case, getting started datasets rather than just technically going hard.
-
 # Dataset
 Stanford IMDB Dataset was used in this project which was originally published by researchers of Stanford University. 
 In this dataset there are thousands of movie reviews collected as in 30 reviews per movie, 50-50% positive-negative to get insight.
