@@ -1,7 +1,7 @@
 # Movie Review Analysis
 1. This analysis is the answer to one question which is 
-**Which thing in a movie gets people's attention drawn most towards it in any movie?** as **More Insights on Reviews.**
-2. Publish a unique dataset on kaggle in CSV format with rating and sentiment both columns for each review.
+**What people will look at first glance regardless of genre in the movie?** as **More Insights on Reviews.**
+2. Publish a unique dataset on kaggle in CSV format with rating and sentiment both columns for each review from Stanford IMDB dataset.
 3. Easiest model build with high accuracy for sentiment analysis for reviews by logistic regression.
 
 # Dataset
@@ -11,7 +11,7 @@ Original Link: http://ai.stanford.edu/~amaas/data/sentiment/
 
 # Preprocessing
 ## Part 1: Kaggle dataset with rating and sentiment columns 
-It is a major part of which the whole dataset is converted in CSV format with columns Review, Rating, Sentiment by file handling and this preprocessed dataset I am putting on Kaggle and in this project I am using that dataset.</br>
+It is a major part of which the whole dataset is converted in CSV format with columns Review, Rating, Sentiment by file handling in python and this preprocessed dataset I am putting on Kaggle and in this project I am using that dataset.</br>
 Link: https://www.kaggle.com/nisargchodavadiya/imdb-movie-reviews-with-ratings-50k </br>
 Which is looking like this:</br>
 ![Data Frame Snap Shot](https://user-images.githubusercontent.com/75474944/117930709-f45a9c80-b31b-11eb-8aa1-bafeb59a6d97.PNG)
@@ -52,5 +52,4 @@ Answer to Question:
 Note: This dataset was published in 2011 so today’s reviews may make a difference in the answer to this question.
 
 # Acknowledgement
-1. Special thanks or special acknowledgment goes to questioner "[Mahesh Bhuva](https://github.com/mahesh1996)".
-2. Publishers (Authors) of  original this dataset.
+Special thanks or special acknowledgment goes to querier "[Mahesh Bhuva](https://github.com/mahesh1996)".
