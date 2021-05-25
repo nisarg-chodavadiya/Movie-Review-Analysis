@@ -1,4 +1,4 @@
-# Movie Review Analysis
+# Movie Review Analytics
 1. This analysis is the answer to one question which is 
 **What people will look at in the movie at a first glance, regardless of genre?** as **More Insights on Reviews.**
 2. Publish a unique dataset on kaggle in CSV format with rating and sentiment both columns for each review from Stanford IMDB dataset.
