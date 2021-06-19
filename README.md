@@ -1,7 +1,7 @@
 # Movie Review Analytics
 1. Problem Statement: 
-**What people will look at in the movie at a first glance, regardless of genre?** as **More Insights on Reviews.**
-2. Publish a unique dataset on kaggle in CSV format with rating and sentiment both columns for each review from Stanford IMDB dataset.
+**What people will look at in the movie at a first glance, regardless of genre?** as **More Insights on Reviews.** **"Movie production house want to know what people will look at first glance regardless of genre in the movie."**
+2. Publish a unique dataset on kaggle in CSV format with rating and sentiment both columns for each review from Stanford IMDB dataset. (Preprocessing with File handling in python for 100K txt files to two CSV with 50K labeled and 50K unlabeled)
 3. Easiest model build with high accuracy for sentiment analysis for reviews by logistic regression.
 
 # Dataset
@@ -50,6 +50,3 @@ Answer to Question:
 2. Then they looked at the scene.
 3. Many times the story, scene makes the movie bad when the movie gets low ratings.</br>
 Note: This dataset was published in 2011 so today’s reviews may make a difference in the answer to this question.
-
-# Acknowledgement
-Special thanks or special acknowledgment goes to querier "[Mahesh Bhuva](https://github.com/mahesh1996)".
