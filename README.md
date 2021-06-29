@@ -3,6 +3,7 @@
 **What people will look at in the movie at a first glance, regardless of genre?** as **More Insights on Reviews.** **"Movie production house wants to know, What people will look at in the movie at first glance, regardless of genre?"**
 2. Publish a unique dataset on kaggle in CSV format with rating and sentiment both columns for each review from Stanford IMDB dataset. (Preprocessing with File handling in python for 100K txt files to two CSV with 50K labeled and 50K unlabeled)
 3. Easiest model build with high accuracy for sentiment analysis for reviews by logistic regression.
+4. Sentiment Score Analysis in Transformer as predicting ratings.
 
 # Dataset
 Stanford IMDB Dataset was used in this project which was originally published by researchers of Stanford University. 
@@ -26,6 +27,10 @@ A very simple Logistic Regression algorithm applied to get higher accuracy more 
 
 Accuracy of Logistic Regression model without tuning 88% on test data. 
 ![CM for IMDB Case Study](https://user-images.githubusercontent.com/75474944/117927560-fe7a9c00-b317-11eb-99bb-a8b0ece54aa7.png)
+
+## Sentiment Score Analysis in Transformer (Predicting Rating of Review)
+In this analysis random, 1000 reviews were taken and predicted sentiment score through pre-trained model form "nlptown/bert-base-multilingual-uncased-sentiment" and compared to rating column. In the rating column, I already converted ratings 0-5 scale from 0-10 for these 1000 reviews.
+![image](https://user-images.githubusercontent.com/75474944/123746650-8a985100-d8cf-11eb-8e3f-cb1eebdaac6c.png)
 
 # More Insights on Reviews
 Word Cloud on positive and negative reviews can answer superficially to the question that is “Which thing in a movie people’s attention is drawn most towards it in any movie?”
