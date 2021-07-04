@@ -55,7 +55,6 @@ All Topics are in increasing order.
 ![ranodm state 888 topics](https://user-images.githubusercontent.com/75474944/124392456-51b70c80-dd13-11eb-816a-a62e09c8892e.png)
 
 # Conclusion
-Answer to Question:
 1. People looks at the character, story in the movie at first glance.
 2. Then they looked at the scene.
 3. Many times the story, scene makes the movie bad when the movie gets low ratings.
