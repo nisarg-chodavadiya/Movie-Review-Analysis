@@ -1,9 +1,10 @@
 # Movie Review Analytics
-1. Problem Statement: 
-**What people will look at in the movie at a first glance, regardless of genre?** as **More Insights on Reviews.** **"Movie production house wants to know, What people will look at in the movie at first glance, regardless of genre?"**
+1. **Problem Statement:** 
+What people will look at in the movie at a first glance, regardless of genre? as **More Insights on Reviews.** **"Movie production house wants to know, What people will look at in the movie at first glance, regardless of genre?"**
 2. Publish a unique dataset on kaggle in CSV format with rating and sentiment both columns for each review from Stanford IMDB dataset. (Preprocessing with File handling in python for 100K txt files to two CSV with 50K labeled and 50K unlabeled)
 3. Easiest model build with high accuracy for sentiment analysis for reviews by logistic regression.
-4. Sentiment Score Analysis in Transformer as predicting ratings.
+4. Sentiment Score Analysis in Transformer as predicting rating of the given review.
+5. **Problem Statement 2: Which type (genre) of movie most people likes?**
 
 # Dataset
 Stanford IMDB Dataset was used in this project which was originally published by researchers of Stanford University. 
@@ -49,9 +50,14 @@ Positive Reviews Word Cloud:
 Negative Reviews Word Cloud:
 ![Negative reviews](https://user-images.githubusercontent.com/75474944/117929702-bc068e80-b31a-11eb-84df-42cb8c7782d7.png)
 
+# Topic Modeling (LDA)
+All Topics are in increasing order.
+![ranodm state 888 topics](https://user-images.githubusercontent.com/75474944/124392456-51b70c80-dd13-11eb-816a-a62e09c8892e.png)
+
 # Conclusion
 Answer to Question:
 1. People looks at the character, story in the movie at first glance.
 2. Then they looked at the scene.
-3. Many times the story, scene makes the movie bad when the movie gets low ratings.</br>
+3. Many times the story, scene makes the movie bad when the movie gets low ratings.
+4. Action is mostly a favorite genre among people. (from Topic Modeling) </br>
 Note: This dataset was published in 2011 so today’s reviews may make a difference in the answer to this question.
