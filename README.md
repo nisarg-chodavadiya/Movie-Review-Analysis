@@ -1,10 +1,8 @@
 # Movie Review Analytics
-1. **Problem Statement:** 
-What people will look at in the movie at a first glance, regardless of genre? as **More Insights on Reviews.** **"Movie production house wants to know, What people will look at in the movie at first glance, regardless of genre?"**
+1. **Problem Statement: Which type (genre) of movie most people likes?**
 2. Publish a unique dataset on kaggle in CSV format with rating and sentiment both columns for each review from Stanford IMDB dataset. (Preprocessing with File handling in python for 100K txt files to two CSV with 50K labeled and 50K unlabeled)
 3. Easiest model build with high accuracy for sentiment analysis for reviews by logistic regression.
 4. Sentiment Score Analysis in Transformer as predicting rating of the given review.
-5. **Problem Statement 2: Which type (genre) of movie most people likes?**
 
 # Dataset
 Stanford IMDB Dataset was used in this project which was originally published by researchers of Stanford University. 
