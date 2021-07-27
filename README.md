@@ -1,5 +1,5 @@
 # Movie Review Analytics
-**Problem Statement: Figure out which type (genre) of movie most people likes according to given data? Build model to predict ratings of given review. Build Sentiment Analysis model in machine learning. Figure out viewer's generalised perception according to given data. (Given dataset: Stanford IMDB)** This statement is given by [Mahesh Bhuva](https://github.com/mahesh1996)
+**Problem Statement: Figure out which type (genre) of movie most people likes according to given data? Build model to predict ratings of given review. Build Sentiment Analysis model in machine learning. Figure out viewer's generalised perception according to given data. (Given dataset: Stanford IMDB)** This statement is given by [Mahesh Bhuva](https://github.com/mahesh1996).
 
 Converting in Data Science Problems
 1. Preprocess the data and convert in CSV format with rating and sentiment both columns for each review from Stanford IMDB dataset. (Preprocessing with File handling in python for 100K txt files to two CSV with 50K labeled and 50K unlabeled)
