@@ -1,16 +1,15 @@
 # Movie Review Analytics
-**Problem Statement: Figure out which type (genre) of movie most people like according to given data. Build a model to predict the rating of a given review. Build Sentiment Analysis model in machine learning. Figure out viewer's generalized perception according to given data. (Given dataset: Stanford IMDB)** This statement is given by [Mahesh Bhuva](https://github.com/mahesh1996).
+**Problem Statement: Summarizing Reviews, Sentiment Analysis and Sentiment Score Analysis.**
 
-Converting in Data Science Problems
-1. Preprocess the data and convert in CSV format with rating and sentiment both columns for each review from Stanford IMDB dataset. (Preprocessing with File handling in python for 100K txt files to two CSV with 50K labeled and 50K unlabeled)
+1. Preprocess the data and convert it in CSV format with rating and sentiment both columns for each review from Stanford IMDB dataset for sentiment score analysis. (Preprocessing with File handling in python for 100K txt files to two CSV with 50K labeled and 50K unlabeled)
 2. Easiest model build with high accuracy for sentiment analysis for reviews by logistic regression.
-3. Word Cloud summurization.
+3. Word Cloud summarization.
 4. Sentiment Score Analysis in Transformer as predicting rating of the given review.
 5. Topic modeling (LDA).
 
 # Dataset
 Stanford IMDB Dataset was used in this project which was originally published by researchers of Stanford University. 
-In this dataset there are thousands of movie reviews collected as in 30 reviews per movie, 50-50% positive-negative to get insight.
+In this dataset, there are thousands of movie reviews collected as in 30 reviews per movie, 50-50% positive-negative to get insight.
 Original Link: http://ai.stanford.edu/~amaas/data/sentiment/
 
 # Preprocessing
@@ -21,18 +20,18 @@ Which is looking like this:</br>
 ![Data Frame Snap Shot](https://user-images.githubusercontent.com/75474944/117930709-f45a9c80-b31b-11eb-8aa1-bafeb59a6d97.PNG)
 
 ## Part 2: Preprocess the text to analyze (Text Clean)
-For sentiment analysis text in the whole dataset cleaned by removing punctuation and stop words.
+For sentiment analysis text in the whole dataset was cleaned by removing punctuation and stopwords.
 ## Part 3: Process text for algorithm for sentiment analysis
 Applied STEM on the cleaned text and then converted TF-IDF vectors.
 
 # Model
-A very simple Logistic Regression algorithm applied to get higher accuracy more than given in TensorFlow website with RNN, LSTM network https://www.tensorflow.org/tutorials/text/text_classification_rnn#stack_two_or_more_lstm_layers
-
+A very simple Logistic Regression algorithm is applied to get higher accuracy.
 Accuracy of Logistic Regression model without tuning 88% on test data. 
 ![CM for IMDB Case Study](https://user-images.githubusercontent.com/75474944/117927560-fe7a9c00-b317-11eb-99bb-a8b0ece54aa7.png)
 
 ## Sentiment Score Analysis in Transformer (Predicting Rating of Review)
 In this analysis random, 1000 reviews were taken and predicted sentiment score through pre-trained model form "nlptown/bert-base-multilingual-uncased-sentiment" and compared to rating column. In the rating column, I already converted ratings 0-5 scale from 0-10 for these 1000 reviews.
+
 ![image](https://user-images.githubusercontent.com/75474944/123746650-8a985100-d8cf-11eb-8e3f-cb1eebdaac6c.png)
 
 # More Insights on Reviews
@@ -57,8 +56,4 @@ All Topics are in increasing order.
 ![ranodm state 888 topics](https://user-images.githubusercontent.com/75474944/124392456-51b70c80-dd13-11eb-816a-a62e09c8892e.png)
 
 # Conclusion
-1. People looks at the character, story in the movie at first glance.
-2. Then they looked at the scene.
-3. Many times the story, scene makes the movie bad when the movie gets low ratings.
-4. Action is mostly a favorite genre among people. (from Topic Modeling) </br>
-Note: This dataset was published in 2011 so today’s reviews may make a difference in the answer to this question.
+Note: This dataset was published in 2011 so today’s reviews may make a difference.
