@@ -1,5 +1,5 @@
 # Movie Review Analytics
-**Problem Statement: Summarizing Reviews, Sentiment Analysis and Sentiment Score Analysis.**
+**Problem Statement: Summarizing Reviews: Which genre do most people like? Figure out viewer’s generalized perception. Sentiment Analysis and Sentiment Score Analysis.**
 
 1. Preprocess the data and convert it in CSV format with rating and sentiment both columns for each review from Stanford IMDB dataset for sentiment score analysis. (Preprocessing with File handling in python for 100K txt files to two CSV with 50K labeled and 50K unlabeled)
 2. Easiest model build with high accuracy for sentiment analysis for reviews by logistic regression.
